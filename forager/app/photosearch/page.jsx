@@ -1,9 +1,10 @@
 import NavBar from '../../components/NavBar';
+import BackgroundScreen from '../../components/BackgroundScreen';
 
 export default function PhotoSearchPage() {
   return (
-    <div className="page">
-      <h1>Photo Search Page</h1>
+    <div className="relative w-full h-[896px] bg-black">
+      <BackgroundScreen />
       <NavBar />
     </div>
   );

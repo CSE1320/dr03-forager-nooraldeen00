@@ -2,9 +2,9 @@
 ####################### Makefile Template ##############################
 ########################################################################
 # Student settings
-NAME = YOURNAME
-SID = YOURSID
-EMAIL = YOURUTAEMAIL
+NAME = Nooraldeen Alsmady
+SID = 1001683963
+EMAIL = nooraldeen.alsmady@mavs.uta.edu
 SEMESTER = SPRING2025
 PROJECT=PROJ03
  
