@@ -1,10 +1,18 @@
-import MushroomList from './MushroomList';
+import Mushroom from "./Mushroom";
+import { mushrooms } from "../data/mushrooms";
 
 export default function SimilarMatchList() {
   return (
-    <div className="mt-6">
-      <h3 className="text-md font-bold mb-2">Similar Matches</h3>
-      <MushroomList />
+    <div className="flex gap-4 overflow-x-auto snap-x pb-4">
+      {mushrooms.map((m, i) => (
+        <div
+          key={i}
+          className="snap-start w-[120px] flex-shrink-0 text-center"
+        >
+          <Mushroom name={m.name} src={m.image} />
+          <p className="text-xs mt-1">{m.name}</p>
+        </div>
+      ))}
     </div>
   );
 }
