@@ -4,7 +4,7 @@
 # Student settings
 NAME = Nooraldeen Alsmady
 SID = 1001683963
-EMAIL = nooraldeen.alsmady@mavs.uta.edu
+EMAIL = nooraldeen.alsmady@mavs.uta.edu URL: https://youtu.be/u4BtPB2I5xY
 SEMESTER = SPRING2025
 PROJECT=PROJ03
  
